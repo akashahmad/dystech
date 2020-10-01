@@ -75,6 +75,7 @@ body{
     background-image: url("../images/Group\ 9.png");
     background-size: contain;
     height: 500px;
+    background-position: center;
     background-repeat: no-repeat;
 }
 .section3 .text-color{
