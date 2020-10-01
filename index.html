@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<head id="head">
     <meta charset="UTF-8">
     <title>Document</title>
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
@@ -20,7 +20,7 @@
 
 </head>
 
-<body>
+<body id="body">
     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 px-0 py-0" id="content">
         <!-- section 1 header starts from here -->
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 px-0 pt-2 pb-4 d-flex justify-content-center">
@@ -34,7 +34,7 @@
             <!-- left side -->
             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 px-0 py-0">
                 <div
-                    class="col-xl-11 col-lg-11 col-md-11 col-sm-11 px-0 py-0 bacground_circle_image d-flex align-items-end justify-content-center">
+                    class="col-xl-11 col-lg-11 col-md-11 col-sm-11 px-0 py-0 bacground_circle_image d-flex align-items-center justify-content-center">
                     <div class="h-100 px-5">
                         <!-- heading -->
                         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 px-0 py-0 h-100">
@@ -80,12 +80,12 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- downarrow image -->
-                        <div
-                            class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center justify-content-xl-end justify-content-lg-end py-3 px-0">
-                            <img src="./assets/images/scroll@3x.png" width="30px" />
-                        </div>
                     </div>
+                </div>
+                <!-- downarrow image -->
+                <div
+                    class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center justify-content-xl-end justify-content-lg-end py-0 px-0">
+                    <img src="./assets/images/scroll@3x.png" width="30px" />
                 </div>
             </div>
             <!-- right-side -->
@@ -387,6 +387,10 @@
         });
         doc.save('sample-file.pdf');
     });
+    // var printWindow = window.open('', '', 'height=400,width=800');
+    // var divContents = doument.getElementById("head").html();
+    // var mainBody = doument.getElementById("body").html();
+    // var printWindow = window.open('', '', 'height=400,width=800');
 </script>
 
 </html>
