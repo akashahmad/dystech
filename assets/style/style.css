@@ -7,8 +7,8 @@ body{
 .d-blue{
     color: #363795;
 }
-.bg.d-bl{
-    background-color: linear-gradient(#0c5696, #2a3f95);
+.btn-primary{
+    background: linear-gradient(#0a5896, #2e3c95)!important;
 }
 .f-20{
     font-size: 20px;
@@ -35,6 +35,13 @@ body{
     background-size: contain;
     background-position: center;
     min-height: 470px;
+    background-repeat: no-repeat;
+}
+.section2 .background_cursor{
+    background-image: url("../images/scroll@3x.png");
+    background-size: contain;
+    background-position: right;
+    min-height: 80px;
     background-repeat: no-repeat;
 }
 /* section 2 css ends here */
@@ -123,5 +130,12 @@ body{
 /* section 6 and 7 ends here */
 .section8 .bg_gradient{
     background: linear-gradient(#005c97, #363795);
+}
+.section8 .footer_Background_image{
+    background-image: url("../images/Dystech-rectangle-white-240x70@3x.png");
+    background-size: contain;
+    min-height: 60px;
+    background-position: center;
+    background-repeat: no-repeat;       
 } 
 
