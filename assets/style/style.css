@@ -1,0 +1,127 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+/* common styles */
+.d-blue{
+    color: #363795;
+}
+.bg.d-bl{
+    background-color: linear-gradient(#0c5696, #2a3f95);
+}
+.f-20{
+    font-size: 20px;
+}
+.f-15{
+    font-size: 15px;    
+}
+.f-17{
+    font-size: 17px;
+}
+.f-40{
+    font-size: 40px;
+}
+/* section 2 css stars from here */
+.section2 .bacground_circle_image{
+    background-image: url("../images/Group\ 3.png");
+    background-size: contain;
+    background-position: center;
+    min-height: 603px;
+    background-repeat: no-repeat;
+}
+.section2 .background-chart-image{
+    background-image: url("../images/clip-report.png");
+    background-size: contain;
+    background-position: center;
+    min-height: 470px;
+    background-repeat: no-repeat;
+}
+/* section 2 css ends here */
+/* section 3 css starts from here */
+.section3 .section3_bg_image{
+    background-image: url("../images/Group\ 9.png");
+    background-size: contain;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+.section3 .text-color{
+    color: #005c97;
+}
+.f-w-500{
+    font-weight: 500;
+}
+/* section 3 css ends here */
+/* section 4 css starts from here */
+.section4 .f-30{
+    font-size: 30px;
+}
+.section4 .bg_gradient{
+    background: linear-gradient(#005c97, #363795);
+}
+.section4 .inverted1_image{
+    z-index: 11;
+    margin: 0px 0px -29px 0px;    
+}
+.section4 .inverted_2_image{
+    z-index: 11;
+    margin: -28px 0px 0px 0px;    
+}
+/* section 4 css ends here */
+/* section 5 css stars from here */
+.section5 .section5_bg_image{
+    background-image: url("../images/Ring\ Chart0@3x.png");
+    background-size: cover;
+    min-height: 627px;
+    background-repeat: no-repeat;   
+}
+
+.circle-chart__circle {
+    animation: circle-chart-fill 2s reverse; /* 1 */ 
+    transform: rotate(-90deg); /* 2, 3 */
+    transform-origin: center; /* 4 */
+  }
+  
+  .circle-chart__circle--negative {
+    transform: rotate(-90deg) scale(1,-1); /* 1, 2, 3 */
+  }
+  
+  .circle-chart__info {
+    animation: circle-chart-appear 2s forwards;
+    opacity: 0;
+    transform: translateY(0.3em);
+  }
+  
+  @keyframes circle-chart-fill {
+    to { stroke-dasharray: 0 100; }
+  }
+  
+  @keyframes circle-chart-appear {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+/* section 5 ends here */
+/* section 6 and 7 css same and stars from here */
+.section6 .heading_color{
+    color: #005c97;
+}
+.section6 .box_heading_color{
+    color: #707070;
+}
+.section6 .box_body_color{
+    color: #969696;
+}
+.section6 .bg_gradient{
+    background: linear-gradient(#005c97, #363795);
+}
+.section6 .bg-box{
+    background-color: #f6f6f6;
+}
+/* section 6 and 7 ends here */
+.section8 .bg_gradient{
+    background: linear-gradient(#005c97, #363795);
+} 
+
