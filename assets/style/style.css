@@ -46,10 +46,10 @@ body{
     min-height: 470px;
     background-repeat: no-repeat;
 }
-.section2 .background_cursor{
+.background_cursor{
     background-image: url("../images/scroll@3x.png");
     background-size: contain;
-    background-position: right;
+    background-position: center;
     min-height: 80px;
     background-repeat: no-repeat;
 }
