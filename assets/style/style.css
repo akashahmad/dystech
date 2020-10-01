@@ -22,6 +22,15 @@ body{
 .f-40{
     font-size: 40px;
 }
+/* .section1 */
+.log_header{
+    background-image: url("../images/Dystech-rectangle-white-240x70.png");
+    background-size: contain;
+    background-position: right;
+    min-height: 40px;
+    background-repeat: no-repeat;
+    width: 150px;    
+}
 /* section 2 css stars from here */
 .section2 .bacground_circle_image{
     background-image: url("../images/Group\ 3.png");
@@ -43,6 +52,22 @@ body{
     background-position: right;
     min-height: 80px;
     background-repeat: no-repeat;
+}
+.section2 .email_background_image{
+    background-image: url("../images/mail@3x.png");
+    background-size: contain;
+    background-position: right;
+    min-height: 40px;
+    background-repeat: no-repeat;
+    width: 30px;
+}
+.section2 .emailSend_background_image{
+    background-image: url("../images/send-email-2@3x.png");
+    background-size: contain;
+    background-position: right;
+    min-height: 40px;
+    background-repeat: no-repeat;
+    width: 30px;
 }
 /* section 2 css ends here */
 /* section 3 css starts from here */
@@ -73,6 +98,22 @@ body{
 .section4 .inverted_2_image{
     z-index: 11;
     margin: -28px 0px 0px 0px;    
+}
+.section4 .invertedComa_Background_one{
+    background-image: url("../images/inverted-commas@3x.png");
+    background-size: contain;
+    background-position: right;
+    min-height: 50px;
+    background-repeat: no-repeat;
+    width: 80px;    
+}
+.section4 .invertedComa_Background_two{
+    background-image: url("../images/inverted-commas@3x (1).png");
+    background-size: contain;
+    background-position: right;
+    min-height: 60px;
+    background-repeat: no-repeat;
+    width: 80px;    
 }
 /* section 4 css ends here */
 /* section 5 css stars from here */
@@ -127,6 +168,14 @@ body{
 .section6 .bg-box{
     background-color: #f6f6f6;
 }
+.section6 .background_clock{
+    background-image: url("../images/Icon feather-clock.png");
+    background-size: contain;
+    background-position: right;
+    min-height: 40px;
+    background-repeat: no-repeat;
+    width: 25px;
+}
 /* section 6 and 7 ends here */
 .section8 .bg_gradient{
     background: linear-gradient(#005c97, #363795);
@@ -138,4 +187,11 @@ body{
     background-position: center;
     background-repeat: no-repeat;       
 } 
-
+.section8 .heart_background_image{
+    background-image: url("../images/heart-full-outline@3x.png");
+    background-size: contain;
+    background-position: right;
+    min-height: 40px;
+    background-repeat: no-repeat;
+    width: 25px;
+}
