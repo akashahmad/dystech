@@ -205,7 +205,7 @@ body{
         display: none!important;
     }
     .section3 .section3_bg_image {
-        height: 515px!important;
+        height: 550px!important;
     }
  }
 @media (max-width: 1023px) and (min-width: 992px) { 
@@ -213,7 +213,7 @@ body{
         display: none!important;
     }
     .section3 .section3_bg_image {
-        height: 515px!important;
+        height: 550px!important;
     }
 }
 @media (max-width: 991px) and (min-width: 768px) { 
@@ -221,7 +221,7 @@ body{
         display: none!important;
     }
     .section3 .section3_bg_image {
-        height: 515px!important;
+        height: 550px!important;
     }
 }
 @media (max-width: 767px) and (min-width: 685px) { }
