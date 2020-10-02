@@ -31,6 +31,9 @@ body{
     background-repeat: no-repeat;
     width: 150px;    
 }
+.height-fit-content{
+    height: fit-content;
+}
 /* section 2 css stars from here */
 .section2 .bacground_circle_image{
     background-image: url("../images/Group\ 3.png");
@@ -207,6 +210,9 @@ body{
     .section3 .section3_bg_image {
         height: 550px!important;
     }
+    .h-box{
+        height: 266px!important;
+    }
  }
 @media (max-width: 1023px) and (min-width: 992px) { 
     .button_hidden{
@@ -215,6 +221,9 @@ body{
     .section3 .section3_bg_image {
         height: 550px!important;
     }
+    .h-box{
+        height: 266px!important;
+    }
 }
 @media (max-width: 991px) and (min-width: 768px) { 
     .button_hidden{
@@ -222,6 +231,9 @@ body{
     }
     .section3 .section3_bg_image {
         height: 550px!important;
+    }
+    .h-box{
+        height: 266px!important;
     }
 }
 @media (max-width: 767px) and (min-width: 685px) { }
