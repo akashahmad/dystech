@@ -211,7 +211,7 @@ body{
         height: 550px!important;
     }
     .h-box{
-        height: 266px!important;
+        height: fit-content!important;
     }
  }
 @media (max-width: 1023px) and (min-width: 992px) { 
@@ -222,7 +222,7 @@ body{
         height: 550px!important;
     }
     .h-box{
-        height: 266px!important;
+        height: fit-content!important;
     }
 }
 @media (max-width: 991px) and (min-width: 768px) { 
@@ -233,7 +233,7 @@ body{
         height: 550px!important;
     }
     .h-box{
-        height: 266px!important;
+        height: fit-content!important;
     }
 }
 @media (max-width: 767px) and (min-width: 685px) { }
