@@ -213,6 +213,9 @@ body{
     .h-box{
         height: fit-content!important;
     }
+    .line_height{
+        line-height: 19px!important;
+    }
  }
 @media (max-width: 1023px) and (min-width: 992px) { 
     .button_hidden{
@@ -224,6 +227,9 @@ body{
     .h-box{
         height: fit-content!important;
     }
+    .line_height{
+        line-height: 19px!important;
+    }
 }
 @media (max-width: 991px) and (min-width: 768px) { 
     .button_hidden{
@@ -234,6 +240,9 @@ body{
     }
     .h-box{
         height: fit-content!important;
+    }
+    .line_height{
+        line-height: 19px!important;
     }
 }
 @media (max-width: 767px) and (min-width: 685px) { }
