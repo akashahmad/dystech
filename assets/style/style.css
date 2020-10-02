@@ -228,10 +228,24 @@ body{
         height: fit-content!important;
     }
     .line_height{
-        line-height: 19px!important;
+        line-height: 25px!important;
     }
 }
-@media (max-width: 991px) and (min-width: 768px) { 
+@media (max-width: 991px) and (min-width: 900px) {
+    .button_hidden{
+        display: none!important;
+    }
+    .section3 .section3_bg_image {
+        height: 550px!important;
+    }
+    .h-box{
+        height: fit-content!important;
+    }
+    .line_height{
+        line-height: 25px!important;
+    }
+} 
+@media (max-width: 899px) and (min-width: 768px) { 
     .button_hidden{
         display: none!important;
     }
