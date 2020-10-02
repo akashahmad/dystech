@@ -202,17 +202,17 @@ body{
 
 @media (max-width: 1199px) and (min-width: 1024px) {
     .button_hidden{
-        display: none;
+        display: none!important;
     }
  }
 @media (max-width: 1023px) and (min-width: 992px) { 
     .button_hidden{
-        display: none;
+        display: none!important;
     }
 }
 @media (max-width: 991px) and (min-width: 768px) { 
     .button_hidden{
-        display: none;
+        display: none!important;
     }
 }
 @media (max-width: 767px) and (min-width: 685px) { }
