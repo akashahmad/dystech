@@ -204,15 +204,24 @@ body{
     .button_hidden{
         display: none!important;
     }
+    .section3 .section3_bg_image {
+        height: 515px!important;
+    }
  }
 @media (max-width: 1023px) and (min-width: 992px) { 
     .button_hidden{
         display: none!important;
     }
+    .section3 .section3_bg_image {
+        height: 515px!important;
+    }
 }
 @media (max-width: 991px) and (min-width: 768px) { 
     .button_hidden{
         display: none!important;
+    }
+    .section3 .section3_bg_image {
+        height: 515px!important;
     }
 }
 @media (max-width: 767px) and (min-width: 685px) { }
